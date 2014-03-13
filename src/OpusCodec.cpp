@@ -263,4 +263,4 @@ int TrackCount(const char* strFile)
 {
   return 1;
 }
-
+}
