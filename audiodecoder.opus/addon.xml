@@ -6,10 +6,10 @@
   provider-name="spiff">
   <requires>
     <c-pluff version="0.1"/>
-    <import addon="xbmc.audiodecoder" version="1.0.0"/>
+    <import addon="kodi.audiodecoder" version="1.0.0"/>
   </requires>
   <extension
-    point="xbmc.audiodecoder"
+    point="kodi.audiodecoder"
     name="opus"
     extension=".ogg|.opus"
     library_linux="audiodecoder.opus.so"/>
