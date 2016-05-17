@@ -12,10 +12,10 @@
     point="kodi.audiodecoder"
     name="opus"
     extension=".ogg|.opus"
-    library_linux="audiodecoder.opus.so"/>
+    library_@PLATFORM@="@LIBRARY_FILENAME@"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Opus Audio Decoder</summary>
     <description lang="en">Opus Audio Decoder</description>
-    <platform>all</platform>
+    <platform>@PLATFORM@</platform>
   </extension>
 </addon>
